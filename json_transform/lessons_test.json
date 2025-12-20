@@ -1,0 +1,66 @@
+[
+   {
+      "name": "Recurisivite & TDA s\u00e9quentiels",
+      "subject": "INFO0301",
+      "number": "3",
+      "state": "Working",
+      "countdown": [
+	      -17,
+         -16,
+         -12,
+         -8,
+         -2,
+         22,
+         78,
+         260
+      ]
+   },
+   {
+      "name": "Processus",
+      "subject": "INFO0305",
+      "number": "4",
+      "state": "Finished",
+      "countdown": [
+         -13,
+         -12,
+         -8,
+         -4,
+         2,
+         25,
+         81,
+         263
+      ]
+   },
+   {
+      "name": "Python",
+      "subject": "PPRIO0301",
+      "number": "3",
+      "state": "Finished",
+      "countdown": [
+         -13,
+         -12,
+         -8,
+         -4,
+         2,
+         25,
+         81,
+         263
+      ]
+   },
+   {
+      "name": "Alg\u00e8bre ralationnelle",
+      "subject": "INFO0303",
+      "number": "1",
+      "state": "Working",
+      "countdown": [
+         -4,
+         -3,
+         1,
+         4,
+         9,
+         32,
+         88,
+         270
+      ]
+   }
+]

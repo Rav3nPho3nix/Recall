@@ -1,0 +1,9 @@
+/            => donne le json contenant toutes les lecons du jour
+/add         => ajoute la lecon passée en json
+# /next        => donne le json contenant les lecons des jours suivants
+
+/lesson/id   => plus de détails sur la leçon d'id 'id'
+# /panel       => statistiques sur les leçons
+
+/delete/id   => ordonne la suppression de la lecon d'id 'id'
+# /log         => affiche les logs des 7 derniers joursé

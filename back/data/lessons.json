@@ -1,0 +1,1480 @@
+{
+   "days": [
+      0,
+      1,
+      4,
+      7,
+      12,
+      35,
+      91,
+      273,
+      522,
+      1000
+   ],
+   "nextId": 76,
+   "lessons": [
+      {
+         "id": 1,
+         "name": "Web",
+         "subject": "INFO0103",
+         "number": "2",
+         "date": "2024-09-12",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 2,
+         "name": "Bases Algo",
+         "subject": "INFO0101",
+         "number": "1",
+         "date": "2024-09-13",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 3,
+         "name": "Nb complexes",
+         "subject": "MA0101",
+         "number": "2",
+         "date": "2024-09-13",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 4,
+         "name": "Bases Algo",
+         "subject": "INFO0101",
+         "number": "2",
+         "date": "2024-09-14",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 5,
+         "name": "Nb complexes",
+         "subject": "MA0101",
+         "number": "3",
+         "date": "2024-09-14",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 6,
+         "name": "Calcul",
+         "subject": "MA0102",
+         "number": "1",
+         "date": "2024-09-14",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 7,
+         "name": "HTML",
+         "subject": "INFO0103",
+         "number": "3",
+         "date": "2024-09-15",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 8,
+         "name": "Calcul",
+         "subject": "MA0102",
+         "number": "2",
+         "date": "2024-09-15",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 9,
+         "name": "Struct. iteratives",
+         "subject": "INFO0101",
+         "number": "3",
+         "date": "2024-09-18",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 10,
+         "name": "Nb Complexes",
+         "subject": "MA0101",
+         "number": "4",
+         "date": "2024-09-18",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 11,
+         "name": "Calcul",
+         "subject": "MA0102",
+         "number": "3",
+         "date": "2024-09-18",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 12,
+         "name": "HTML CSS",
+         "subject": "INFO0103",
+         "number": "4",
+         "date": "2024-09-19",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 13,
+         "name": "Calcul",
+         "subject": "MA0102",
+         "number": "4",
+         "date": "2024-09-19",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 14,
+         "name": "Nb Complexes",
+         "subject": "MA0101",
+         "number": "5",
+         "date": "2024-09-20",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 15,
+         "name": "Java",
+         "subject": "INFO0101",
+         "number": "5",
+         "date": "2024-09-20",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 16,
+         "name": "Java & Fonctions",
+         "subject": "INFO0101",
+         "number": "6 & 7",
+         "date": "2024-09-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 17,
+         "name": "Nb Complexes",
+         "subject": "MA0101",
+         "number": "6",
+         "date": "2024-09-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 18,
+         "name": "Calcul",
+         "subject": "MA0102",
+         "number": "5",
+         "date": "2024-09-29",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 19,
+         "name": "CSS & Formulaires",
+         "subject": "INFO0103",
+         "number": "5&6",
+         "date": "2024-09-29",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 20,
+         "name": "Culture Num.",
+         "subject": "INFO0104",
+         "number": "1",
+         "date": "2024-09-29",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 21,
+         "name": "Fonctions Procedures",
+         "subject": "INFO0101",
+         "number": "8",
+         "date": "2024-09-30",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 22,
+         "name": "Nb Complexes",
+         "subject": "MA0101",
+         "number": "7",
+         "date": "2024-09-30",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 23,
+         "name": "Nb Complexes",
+         "subject": "MA0101",
+         "number": "8",
+         "date": "2024-10-05",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 24,
+         "name": "Moyens de Communication",
+         "subject": "INFO0104",
+         "number": "2",
+         "date": "2024-10-06",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 25,
+         "name": "Formulaires/CMS",
+         "subject": "INFO0103",
+         "number": "7",
+         "date": "2024-10-06",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 26,
+         "name": "Fonction var. reelle",
+         "subject": "MA0101",
+         "number": "9",
+         "date": "2024-10-17",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 27,
+         "name": "Fonction var. reelles",
+         "subject": "MA0101",
+         "number": "11",
+         "date": "2024-10-18",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 28,
+         "name": "Gestion de donn\u00e9es",
+         "subject": "INFO0104",
+         "number": "3/4",
+         "date": "2024-10-19",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 29,
+         "name": "Fonction var. usuelles",
+         "subject": "MA0101",
+         "number": "12",
+         "date": "2024-10-25",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 30,
+         "name": "Fonction var. reelle",
+         "subject": "MA0101",
+         "number": "13",
+         "date": "2024-11-01",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 31,
+         "name": "Les Tableaux",
+         "subject": "INFO0102",
+         "number": "1",
+         "date": "2024-11-01",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 32,
+         "name": "Fonctions de r\u00e9f\u00e9rence",
+         "subject": "MA0101",
+         "number": "14",
+         "date": "2024-11-14",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 33,
+         "name": "Tableaux: Java & Algo",
+         "subject": "INFO0102",
+         "number": "2 & 3",
+         "date": "2024-11-14",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 34,
+         "name": "Gestion de donn\u00e9es",
+         "subject": "INFO0104",
+         "number": "5",
+         "date": "2024-11-14",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 35,
+         "name": "Fonctions var. relles",
+         "subject": "MA0101",
+         "number": "15",
+         "date": "2024-11-16",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 36,
+         "name": "Algo sur tableaux",
+         "subject": "INFO0102",
+         "number": "4",
+         "date": "2024-11-16",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 37,
+         "name": "Chaines de caracteres",
+         "subject": "INFO0102",
+         "number": "5",
+         "date": "2024-11-23",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 38,
+         "name": "Tableaux 2D",
+         "subject": "INFO0102",
+         "number": "6",
+         "date": "2024-11-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 39,
+         "name": "Primitives",
+         "subject": "MA0101",
+         "number": "16",
+         "date": "2024-11-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 40,
+         "name": "Gestion des donn\u00e9es",
+         "subject": "INFO0104",
+         "number": "6",
+         "date": "2024-11-29",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 41,
+         "name": "Int\u00e9gration par parties",
+         "subject": "MA0101",
+         "number": "17",
+         "date": "2024-11-30",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 42,
+         "name": "Primitives",
+         "subject": "MA0101",
+         "number": "18",
+         "date": "2024-12-07",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 43,
+         "name": "Equa. Diff. 1er ordre",
+         "subject": "MA0101",
+         "number": "19",
+         "date": "2024-12-11",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 44,
+         "name": "Probleme de Cauchy",
+         "subject": "MA0101",
+         "number": "20",
+         "date": "2024-12-13",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 45,
+         "name": "Intro TCP/IP",
+         "subject": "INFO0204",
+         "number": "1",
+         "date": "2025-01-21",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 46,
+         "name": "Modelisation & UML",
+         "subject": "INFO0201",
+         "number": "1",
+         "date": "2025-01-21",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 47,
+         "name": "Cas d'utilisations",
+         "subject": "INFO0201",
+         "number": "2",
+         "date": "2025-01-21",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 48,
+         "name": "Adressage internet",
+         "subject": "INFO0204",
+         "number": "2",
+         "date": "2025-01-22",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 49,
+         "name": "Adressage internet",
+         "subject": "INFO0204",
+         "number": "3",
+         "date": "2025-01-22",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 50,
+         "name": "Diagramme de s\u00e9quence",
+         "subject": "INFO0201",
+         "number": "3",
+         "date": "2025-01-29",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 51,
+         "name": "Diagramme d'activit\u00e9s",
+         "subject": "INFO0201",
+         "number": "4",
+         "date": "2025-01-29",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 52,
+         "name": "Diagramme de classes",
+         "subject": "INFO0201",
+         "number": "5",
+         "date": "2025-02-04",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 53,
+         "name": "Les relations diag. Classes",
+         "subject": "INFO0201",
+         "number": "6",
+         "date": "2025-02-08",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 54,
+         "name": "Protocole IP",
+         "subject": "INFO0204",
+         "number": "4",
+         "date": "2025-02-20",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 55,
+         "name": "Protocole ARP",
+         "subject": "INFO0204",
+         "number": "5",
+         "date": "2025-02-20",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 56,
+         "name": "Heritage, Interface",
+         "subject": "INFO0201",
+         "number": "7",
+         "date": "2025-02-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 57,
+         "name": "Javascript",
+         "subject": "INFO0205",
+         "number": "1",
+         "date": "2025-03-21",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 58,
+         "name": "Objet & Classe",
+         "subject": "INFO0202",
+         "number": "1",
+         "date": "2025-03-21",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 59,
+         "name": "Javascript",
+         "subject": "INFO0205",
+         "number": "2",
+         "date": "2025-03-22",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 60,
+         "name": "Interface, Javadoc & Enum",
+         "subject": "INFO0202",
+         "number": "2",
+         "date": "2025-03-24",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 61,
+         "name": "Javascript",
+         "subject": "INFO0205",
+         "number": "3",
+         "date": "2025-03-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 62,
+         "name": "Erreurs, Packages & Relations",
+         "subject": "INFO0202",
+         "number": "3",
+         "date": "2025-03-28",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 63,
+         "name": "React",
+         "subject": "INFO0205",
+         "number": "4",
+         "date": "2025-04-04",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 64,
+         "name": "Heritage, Classe Abs & Exceptions",
+         "subject": "INFO0202",
+         "number": "4",
+         "date": "2025-04-04",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 65,
+         "name": "Algo et python",
+         "subject": "PPRIO0301",
+         "number": "1",
+         "date": "2025-09-08",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 66,
+         "name": "Linux",
+         "subject": "INFO0305",
+         "number": "1",
+         "date": "2025-09-09",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 67,
+         "name": "Shell, script, commandes",
+         "subject": "INFO0305",
+         "number": "2",
+         "date": "2025-09-09",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 68,
+         "name": "Algo",
+         "subject": "INFO0301",
+         "number": "1",
+         "date": "2025-09-10",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 69,
+         "name": "Python",
+         "subject": "PPRIO0301",
+         "number": "2",
+         "date": "2025-09-13",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 70,
+         "name": "Utilisateurs et droits",
+         "subject": "INFO0305",
+         "number": "3",
+         "date": "2025-09-15",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 71,
+         "name": "Algo recursivite",
+         "subject": "INFO0301",
+         "number": "2",
+         "date": "2025-09-20",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 72,
+         "name": "Recurisivite & TDA s\u00e9quentiels",
+         "subject": "INFO0301",
+         "number": "3",
+         "date": "2025-09-23",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 73,
+         "name": "Processus",
+         "subject": "INFO0305",
+         "number": "4",
+         "date": "2025-09-27",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 74,
+         "name": "Python",
+         "subject": "PPRIO0301",
+         "number": "3",
+         "date": "2025-09-27",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": 75,
+         "name": "Alg\u00e8bre ralationnelle",
+         "subject": "INFO0303",
+         "number": "1",
+         "date": "2025-10-06",
+         "next": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": "toto",
+         "name" : "test",
+         "subject" : "",
+         "number": "1",
+         "date": "2025-11-2",
+         "next": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      },
+      {
+         "id": "tata",
+         "name" : "test",
+         "subject" : "",
+         "number": "bad boys what are you gonna do ?",
+         "date": "2025-11-3",
+         "next": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+         ]
+      }
+   ]
+}

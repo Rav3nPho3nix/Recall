@@ -1,0 +1,11 @@
+Charger le json
+
+
+Lecons du jour:
+    1. Prendre la date du jour
+    2. Prendre le tableau des jours dans le json
+
+    3. Pour chaque lecons:
+        1. Prendre le premier 'True' dans le tableu de booleen
+        2. Prendre le jour de la lecons
+        3. Si le nb de jours du premier 'True' + date de la lecon == jour aujourd'hui => on le stocke pour l'afficher ensuite
