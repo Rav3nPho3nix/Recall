@@ -1,5 +1,6 @@
 #include "../libs/jansson.h"
 #include <time.h>
+#include <stdbool.h>
 
 void load_json(char *file_name, json_t **p_json) {
     json_error_t error;

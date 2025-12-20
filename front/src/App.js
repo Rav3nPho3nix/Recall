@@ -25,11 +25,25 @@ export default function App() {
     }
 
     // Si il n'y a pas de lecons a faire
-    if (JSON.stringify(data, null, 0) == '[]') {
+    if (data.length === 0) {
         return (<div>Aucune leçons a réviser</div>);
     }
 
     // Sinon
-    return (<pre>{JSON.stringify(data, null, 2)}</pre>);
+    return (
+        <ul>
+            {data.map((item, i) => {
+                return <li key={i}>
+                    <strong>LEÇON :</strong> {item.name} 
+                    <br />
+                    Matière : {item.subject}
+                    <br />
+                    Numéro : {item.number}
+                    <br />
+                    Date : {item.date}
+                </li>
+            })}
+        </ul>
+    );
 }
 

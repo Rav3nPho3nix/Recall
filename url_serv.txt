@@ -6,4 +6,4 @@
 # /panel       => statistiques sur les leçons
 
 /delete/id   => ordonne la suppression de la lecon d'id 'id'
-# /log         => affiche les logs des 7 derniers joursé
+# /log         => affiche les logs des 7 derniers jours
