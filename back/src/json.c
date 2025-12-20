@@ -12,7 +12,7 @@ void load_json(char *file_name, json_t **p_json) {
     }
 }
 
-json_t* get_lessons_today(json_t *json, time_t today, json_t *lessons_today) {
+void get_lessons_today(json_t *json, time_t today, json_t *lessons_today) {
     // liste json contenant les jours j+x de revisions
     json_t *days_json = json_object_get(json, "days");
 
@@ -94,5 +94,5 @@ json_t* get_lessons_today(json_t *json, time_t today, json_t *lessons_today) {
     }
 
     free(days);
-    // return lessons_today;
 }
+
