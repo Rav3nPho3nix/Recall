@@ -27,15 +27,18 @@ int main(int argc, char *argv[]) {
     load_json(argv[1], &json);
     printf("- Json file loaded successfully\n");
 
+    // Recupere la date du jour
     time_t now = time(NULL);
     struct tm *t = localtime(&now);
     t->tm_sec=0;
     t->tm_min=0;
     t->tm_hour=0;
 
+
     json_t *res = json_array();
-    get_lessons_today(json, mktime(t), res);
-    printf("%s\n", json_dumps(res, JSON_INDENT(3)));
+    // get_lessons_today(json, mktime(t), res);
+    get_lessons(json, mktime(t), res);
+    printf("Aujourd'hui \n: %s\n", json_dumps(res, JSON_INDENT(3)));
 
     return 0;
 }

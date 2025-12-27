@@ -4,17 +4,23 @@
 #define PORT 8888
 
 struct Context {
-    // Le fichier json
+    // Contenu du fichier json
     json_t *json;
     // La date d'aujourd'hui
     struct tm *time;
     // Nom du fichier json
-    char *file_name;
+    char *file_path;
     // Protection afin d'interdire l'acces en parralle au contexte
     pthread_mutex_t mutex;
 };
 
+// Fonction de callback de microhttpd qui gere les requetes HTTP recues
 enum MHD_Result answer_to_connection(void *cls, struct MHD_Connection *connection, const char *url, const char *method, const char *version, const char *upload_data, size_t *upload_data_size, void **req_cls);
+
+// Envoi une reponse HTTP au format JSON
 int json_response_from_content(char *str, unsigned len, struct MHD_Connection *connection);
+
+// Met a jour le contexte avec le nouveau contenu
+void update_context(struct Context *context, json_t *json);
 
 #endif

@@ -1,2 +1,1 @@
-make
-./build/server data/lessons.json
+make && ./build/server data/lessons.json

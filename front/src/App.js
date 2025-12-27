@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 import { useState, useEffect } from 'react';
 
-export default function App() {
+export default function App({day}) {
     const [data, setData] = useState(null);
 
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch('http://localhost:8888/');
+                const response = await fetch(`http://localhost:8888/day/${day}`);
                 const json = await response.json();
                 setData(json);
             } catch (error) {
@@ -17,7 +17,7 @@ export default function App() {
         }
 
         fetchData();
-    }, []);
+    }, [day]);
 
     // Si le json n'a toujours pas ete traitee
     if (!data) {

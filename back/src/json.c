@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdbool.h>
 
+// Charge les lecons
 void load_json(char *file_name, json_t **p_json) {
     json_error_t error;
     *p_json = json_load_file(file_name, 0, &error);
@@ -12,7 +13,13 @@ void load_json(char *file_name, json_t **p_json) {
     }
 }
 
-void get_lessons_today(json_t *json, time_t today, json_t *lessons_today) {
+// Enregistre les lecons
+void save_json(char *file_name, json_t *json) {
+    json_dump_file(json, file_name, JSON_INDENT(3));
+}
+
+// Recupere les lessons du jour passe en parametres
+void get_lessons(json_t *json, time_t day, json_t *lessons_of_the_day) {
     // liste json contenant les jours j+x de revisions
     json_t *days_json = json_object_get(json, "days");
 
@@ -20,10 +27,10 @@ void get_lessons_today(json_t *json, time_t today, json_t *lessons_today) {
     int *days = malloc(sizeof(int) * json_array_size((days_json)));
     size_t _;
     int i = 0;
-    json_t *day;
+    json_t *day_;
     // Stocke dans le tableau d'entiers tout les entiers
-    json_array_foreach(days_json, _, day) {
-        days[i] = json_integer_value(day);
+    json_array_foreach(days_json, _, day_) {
+        days[i] = json_integer_value(day_);
         i++;
     }
 
@@ -78,21 +85,24 @@ void get_lessons_today(json_t *json, time_t today, json_t *lessons_today) {
             tmp.tm_mday += days[index];
             date = mktime(&tmp);
 
-            ////// SEULE PARTIE QUI CHANGE
-            /// SI ON VEUT FAIRE POUR J+1, IL FAUT FAIRE +1 JOUR au time_t 'today'
-            /// OU
-            /// PASSER EN PARAMETRES L'OFFSET DE JOUR AFIN DE POUVOIR FAIRE +0, +1, +2, etc
-
-            // Si la date correspond a aujourd'hui
-            if (date == today) {
-                json_array_append(lessons_today, lesson);
-                // printf("c'est aoujourdui");
+            // Si la date correspond au jour
+            if (date == day) {
+                json_array_append(lessons_of_the_day, lesson);
             }
-
-            ///////
         }
     }
 
     free(days);
 }
 
+// Ajoute une lecon
+void add_lesson(json_t *json, time_t today, json_t *values) {
+    json_t *lessons = json_object_get(json, "lessons");
+    json_t *next_id = json_object_get(json, "nextId");
+
+    // Incremente l'id de la prochaine lecon de 1
+    json_object_set(json, "nextId", json_integer(json_integer_value(next_id) + 1));
+
+    // Ajoute la lecon
+    json_array_append(lessons, values);
+}
